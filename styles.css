@@ -302,10 +302,12 @@ h3 {
 }
 
 .book-list a {
-  min-height: 112px;
-  display: flex;
+  min-height: 180px;
+  display: grid;
+  grid-template-columns: 96px 1fr;
   align-items: center;
-  padding: 22px;
+  gap: 18px;
+  padding: 18px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
@@ -315,6 +317,18 @@ h3 {
 
 .book-list a:hover {
   border-color: #8dd3ca;
+}
+
+.book-list img {
+  width: 96px;
+  height: 136px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
+}
+
+.book-list span {
+  display: block;
 }
 
 .contact {
@@ -399,6 +413,16 @@ textarea:focus {
   .service-grid,
   .book-list {
     grid-template-columns: 1fr;
+  }
+
+  .book-list a {
+    grid-template-columns: 80px 1fr;
+    min-height: 148px;
+  }
+
+  .book-list img {
+    width: 80px;
+    height: 112px;
   }
 
   .service-card {
