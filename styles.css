@@ -268,17 +268,26 @@ h3 {
   color: var(--muted);
 }
 
-.achievements {
+.books {
   background: var(--ink);
   color: var(--white);
 }
 
-.achievements .section-kicker {
+.books .section-kicker {
   color: #8dd3ca;
 }
 
+.books .section-heading::after {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.achievements {
+  background: var(--paper);
+  color: var(--ink);
+}
+
 .achievements p {
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--muted);
 }
 
 .text-stack {
@@ -297,15 +306,15 @@ h3 {
   display: flex;
   align-items: center;
   padding: 22px;
-  background: var(--white);
-  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
 }
 
 .book-list a:hover {
-  border-color: var(--accent);
+  border-color: #8dd3ca;
 }
 
 .contact {
