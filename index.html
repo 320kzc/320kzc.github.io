@@ -178,7 +178,11 @@
               採用を強くしたい、人事制度を見直したい、AI活用を組織に根づかせたいなど、現在の課題をお聞かせください。
             </p>
           </div>
-          <form class="contact-form" id="contactForm">
+          <form class="contact-form" id="contactForm" action="https://formsubmit.co/ka00zu+contact@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Webサイトからの問い合わせ" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
             <label>
               お名前
               <input type="text" name="name" autocomplete="name" required />
@@ -197,7 +201,7 @@
             </label>
             <button class="button button--primary" type="submit">相談内容を送信する</button>
             <p class="form-note" id="formNote" role="status">
-              送信ボタンを押すと、入力内容をもとにメール作成画面が開きます。
+              送信ボタンを押すと、入力内容が ka00zu+contact@gmail.com に送信されます。
             </p>
           </form>
         </div>

@@ -345,6 +345,10 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.form-honeypot {
+  display: none;
+}
+
 label {
   display: grid;
   gap: 7px;
