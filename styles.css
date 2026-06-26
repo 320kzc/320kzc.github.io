@@ -254,7 +254,7 @@ h3 {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.5;
-  text-align: right;
+  text-align: left;
 }
 
 .profile {
