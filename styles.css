@@ -233,6 +233,28 @@ h3 {
   margin: 0;
 }
 
+.intro__figure {
+  grid-column: 2;
+  margin: 8px 0 0;
+}
+
+.intro__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.intro__figure figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
 .profile {
   background: var(--soft);
 }
@@ -417,6 +439,10 @@ textarea:focus {
   .service-grid,
   .book-list {
     grid-template-columns: 1fr;
+  }
+
+  .intro__figure {
+    grid-column: 1;
   }
 
   .book-list a {
